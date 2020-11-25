@@ -1,0 +1,151 @@
+﻿Country,Region,Happiness Rank,Happiness Score,Economy (GDP per Capita),Health (Life Expectancy),year,literacy rate,crime rate
+Switzerland,Western Europe,1,7.587,1.39651,0.94143,2015,99,0.7
+Iceland,Western Europe,2,7.561,1.30232,0.94784,2015,99,0.9
+Denmark,Western Europe,3,7.527,1.32548,0.87464,2015,99,1.1
+Norway,Western Europe,4,7.522,1.459,0.88521,2015,99,0.5
+Canada,North America,5,7.427,1.32629,0.90563,2015,99,1.7
+Finland,Western Europe,6,7.406,1.29025,0.88911,2015,99,1.5
+Netherlands,Western Europe,7,7.378,1.32944,0.89284,2015,99,0.6
+Sweden,Western Europe,8,7.364,1.33171,0.91087,2015,99,1.1
+New Zealand,Australia and New Zealand,9,7.286,1.25018,0.90837,2015,99,1.1
+Australia,Australia and New Zealand,10,7.284,1.33358,0.93156,2015,99,0.9
+Israel,Middle East and Northern Africa,11,7.278,1.22857,0.91387,2015,99,1.4
+Costa Rica,Latin America and Caribbean,12,7.226,0.95578,0.86027,2015,99.32,11.6
+Austria,Western Europe,13,7.2,1.33723,0.89042,2015,99,0.5
+Mexico,Latin America and Caribbean,14,7.187,1.02054,0.81444,2015,94.47,16.1
+United States,North America,15,7.119,1.39451,0.86179,2015,99,5
+Brazil,Latin America and Caribbean,16,6.983,0.98124,0.69702,2015,92.05,28.6
+Luxembourg,Western Europe,17,6.946,1.56391,0.91894,2015,99,0.9
+Ireland,Western Europe,18,6.94,1.33596,0.89533,2015,99,0.7
+Belgium,Western Europe,19,6.937,1.30782,0.89667,2015,99,2
+United Arab Emirates,Middle East and Northern Africa,20,6.901,1.42727,0.80925,2015,93.23,0.7
+United Kingdom,Western Europe,21,6.867,1.26637,0.90943,2015,99,1
+Oman,Middle East and Northern Africa,22,6.853,1.36011,0.76276,2015,93.04,0.4
+Venezuela,Latin America and Caribbean,23,6.81,1.04424,0.72052,2015,96.61,56.3
+Singapore,Southeastern Asia,24,6.798,1.52186,1.02525,2015,96.83,0.3
+Panama,Latin America and Caribbean,25,6.786,1.06353,0.79661,2015,91,11.9
+Germany,Western Europe,26,6.75,1.32792,0.89186,2015,99,0.8
+Chile,Latin America and Caribbean,27,6.67,1.10715,0.85857,2015,96.87,3.4
+Qatar,Middle East and Northern Africa,28,6.611,1.69042,0.79733,2015,93,8.1
+France,Western Europe,29,6.575,1.27778,0.94579,2015,99,1.6
+India,Southern Asia,117,4.565,0.64499,0.51529,2015,71.96,3.4
+Denmark,Western Europe,1,7.526,1.44178,0.79504,2016,99,1
+Switzerland,Western Europe,2,7.509,1.52733,0.86303,2016,99,0.5
+Iceland,Western Europe,3,7.501,1.42666,0.86733,2016,99,0.3
+Norway,Western Europe,4,7.498,1.57744,0.79579,2016,99,0.5
+Finland,Western Europe,5,7.413,1.40598,0.81091,2016,99,1.3
+Canada,North America,6,7.404,1.44015,0.8276,2016,99,1.7
+Netherlands,Western Europe,7,7.339,1.46468,0.81231,2016,99,0.6
+New Zealand,Australia and New Zealand,8,7.334,1.36066,0.83096,2016,99,0.7
+Australia,Australia and New Zealand,9,7.313,1.44443,0.8512,2016,99,0.8
+Sweden,Western Europe,10,7.291,1.45181,0.83121,2016,99,1.1
+Israel,Middle East and Northern Africa,11,7.267,1.33766,0.84917,2016,91.75,1.4
+Austria,Western Europe,12,7.119,1.45038,0.80565,2016,99,0.7
+United States,North America,13,7.104,1.50796,0.779,2016,99,5.4
+Costa Rica,Latin America and Caribbean,14,7.087,1.06879,0.76146,2016,97.8,11.9
+Puerto Rico,Latin America and Caribbean,15,7.039,1.35943,0.77758,2016,86.5,19.2
+Germany,Western Europe,16,6.994,1.44787,0.81487,2016,99,1.2
+Brazil,Latin America and Caribbean,17,6.952,1.08754,0.61415,2016,92.81,28.4
+Belgium,Western Europe,18,6.929,1.42539,0.81959,2016,99,1.5
+Ireland,Western Europe,19,6.907,1.48341,0.81455,2016,99,0.8
+Luxembourg,Western Europe,20,6.871,1.69752,0.84542,2016,99,0.9
+Mexico,Latin America and Caribbean,21,6.778,1.11508,0.71143,2016,94.86,16.5
+Singapore,Southeastern Asia,22,6.739,1.64555,0.94719,2016,97.05,0.3
+United Kingdom,Western Europe,23,6.725,1.40283,0.80991,2016,99,1.2
+Chile,Latin America and Caribbean,24,6.705,1.2167,0.81883,2016,96.87,3.4
+Panama,Latin America and Caribbean,25,6.701,1.18306,0.70835,2016,98.1,10
+Argentina,Latin America and Caribbean,26,6.65,1.15137,0.69711,2016,99.13,6
+Czech Republic,Central and Eastern Europe,27,6.596,1.30915,0.76376,2016,99,0.6
+United Arab Emirates,Middle East and Northern Africa,28,6.573,1.57352,0.72993,2016,93.23,0.7
+Uruguay,Latin America and Caribbean,29,6.545,1.18157,0.72183,2016,98.56,7.8
+India,Southern Asia,118,4.404,0.74036,0.45091,2016,75,3.2
+Norway,Western Europe,1,7.537000179,1.616463184,0.796666503,2017,99,0.5
+Denmark,Western Europe,2,7.521999836,1.482383013,0.792565525,2017,99,1.2
+Iceland,Western Europe,3,7.504000187,1.48063302,0.833552122,2017,99,0.9
+Switzerland,Western Europe,4,7.493999958,1.564979553,0.858131289,2017,99,0.5
+Finland,Western Europe,5,7.468999863,1.443571925,0.80915767,2017,99,1.2
+Netherlands,Western Europe,6,7.376999855,1.503944635,0.810696125,2017,99,0.8
+Canada,North America,7,7.315999985,1.479204416,0.834557652,2017,99,1.8
+New Zealand,Australia and New Zealand,8,7.31400013,1.405706048,0.816759706,2017,99,0.7
+Sweden,Western Europe,9,7.28399992,1.494387269,0.830875158,2017,99,1.1
+Australia,Australia and New Zealand,10,7.28399992,1.484414935,0.843886793,2017,99,0.7
+Israel,Middle East and Northern Africa,11,7.212999821,1.375382423,0.838404,2017,91.75,1.4
+Costa Rica,Latin America and Caribbean,12,7.078999996,1.109706283,0.759509265,2017,97.9,12.3
+Austria,Western Europe,13,7.006000042,1.487097263,0.815328419,2017,99,0.7
+United States,North America,14,6.993000031,1.546259284,0.774286628,2017,99,5.3
+Ireland,Western Europe,15,6.977000237,1.535706639,0.809782624,2017,99,0.9
+Germany,Western Europe,16,6.951000214,1.487923384,0.798950732,2017,99,1
+Belgium,Western Europe,17,6.890999794,1.463780761,0.818091869,2017,99,1.7
+Luxembourg,Western Europe,18,6.862999916,1.741943598,0.845089495,2017,99,0.3
+United Kingdom,Western Europe,19,6.714000225,1.44163394,0.805335939,2017,99,1.2
+Chile,Latin America and Caribbean,20,6.65199995,1.25278461,0.819479704,2017,96.4,4.3
+United Arab Emirates,Middle East and Northern Africa,21,6.647999763,1.626343369,0.726798236,2017,95,0.5
+Brazil,Latin America and Caribbean,22,6.635000229,1.10735321,0.616552353,2017,93.08,29.7
+Czech Republic,Central and Eastern Europe,23,6.609000206,1.352682352,0.754444003,2017,99,0.6
+Argentina,Latin America and Caribbean,24,6.598999977,1.185295463,0.695137084,2017,99,5.1
+Mexico,Latin America and Caribbean,25,6.578000069,1.153183818,0.709978998,2017,94.97,19.3
+Singapore,Southeastern Asia,26,6.572000027,1.69227767,0.949492395,2017,97.2,0.2
+Malta,Western Europe,27,6.52699995,1.343279839,0.821944237,2017,94.5,0.8
+Uruguay,Latin America and Caribbean,28,6.453999996,1.217559695,0.719216824,2017,98.62,8.2
+Guatemala,Latin America and Caribbean,29,6.453999996,0.872001946,0.54023999,2017,89,26.1
+India,Southern Asia,122,4.315000057,0.792221248,0.455427617,2017,75,3.2
+Finland,Western Europe,1,7.632,1.305,0.874,2018,99,1.23
+Norway,Western Europe,2,7.594,1.456,0.861,2018,99,0.53
+Denmark,Western Europe,3,7.555,1.351,0.868,2018,99,0.8
+Iceland,Western Europe,4,7.495,1.343,0.914,2018,99,0.9
+Switzerland,Western Europe,5,7.487,1.42,0.927,2018,99,0.5
+Netherlands,Western Europe,6,7.441,1.361,0.878,2018,99,0.8
+Canada,North America,7,7.328,1.33,0.896,2018,99,1.7
+New Zealand,Australia and New Zealand,8,7.324,1.268,0.876,2018,99,0.7
+Sweden,Western Europe,9,7.314,1.355,0.913,2018,99,1.1
+Australia,Australia and New Zealand,10,7.272,1.34,0.91,2018,88,0.7
+United Kingdom,Western Europe,11,7.19,1.244,0.888,2018,99,1.2
+Austria,Western Europe,12,7.139,1.341,0.891,2018,99,0.7
+Costa Rica,Latin America and Caribbean,13,7.072,1.01,0.817,2018,97.86,12.3
+Ireland,Western Europe,14,6.977,1.448,0.876,2018,99,0.9
+Germany,Western Europe,15,6.965,1.34,0.861,2018,99,1
+Belgium,Western Europe,16,6.927,1.324,0.894,2018,99,1.7
+Luxembourg,Western Europe,17,6.91,1.576,0.896,2018,99,0.3
+United States,North America,18,6.886,1.398,0.819,2018,99,5.3
+Israel,Middle East and Northern Africa,19,6.814,1.301,0.883,2018,91,1.4
+United Arab Emirates,Middle East and Northern Africa,20,6.774,2.096,0.67,2018,95,0.5
+Czech Republic,Central and Eastern Europe,21,6.711,1.233,0.854,2018,99,0.6
+Malta,Western Europe,22,6.627,1.27,0.884,2018,94.5,0.8
+France,Western Europe,23,6.489,1.293,0.908,2018,99,1.3
+Mexico,Latin America and Caribbean,24,6.488,1.038,0.761,2018,95.38,24.8
+Chile,Latin America and Caribbean,25,6.476,1.131,0.808,2018,96.4,4.3
+Taiwan,Eastern Asia,26,6.441,1.365,0.857,2018,98,0.8
+Panama,Latin America and Caribbean,27,6.43,1.112,0.759,2018,95.41,9.7
+Brazil,Latin America and Caribbean,28,6.419,0.986,0.675,2018,93.23,30.5
+Argentina,Latin America and Caribbean,29,6.388,1.073,0.744,2018,99,5.1
+India,Southern Asia,133,4.19,0.721,0.485,2018,74.4,3.2
+Finland,Western Europe,1,7.769,1.34,0.986,2019,99,1.11
+Denmark,Western Europe,2,7.6,1.383,0.996,2019,99,0.5
+Norway,Western Europe,3,7.554,1.488,1.028,2019,99,0.8
+Iceland,Western Europe,4,7.494,1.38,1.026,2019,99,0.9
+Netherlands,Western Europe,5,7.488,1.396,0.999,2019,99,0.8
+Switzerland,Western Europe,6,7.48,1.452,1.052,2019,99,0.5
+Sweden,Western Europe,7,7.343,1.387,1.009,2019,99,1.1
+New Zealand,Australia and New Zealand,8,7.307,1.303,1.026,2019,99,0.7
+Canada,North America,9,7.278,1.365,1.039,2019,99,1.8
+Austria,Western Europe,10,7.246,1.376,1.016,2019,99,0.7
+Australia,Australia and New Zealand,11,7.228,1.372,1.036,2019,99,0.8
+Costa Rica,Latin America and Caribbean,12,7.167,1.034,0.963,2019,97.9,12.3
+Israel,Middle East and Northern Africa,13,7.139,1.276,1.029,2019,91.75,1.4
+Luxembourg,Western Europe,14,7.09,1.609,1.012,2019,99,0.3
+United Kingdom,Western Europe,15,7.054,1.333,0.996,2019,99,1.2
+Ireland,Western Europe,16,7.021,1.499,0.999,2019,99,0.9
+Germany,Western Europe,17,6.985,1.373,0.987,2019,99,1
+Belgium,Western Europe,18,6.923,1.356,0.986,2019,99,1.7
+United States,North America,19,6.892,1.433,0.874,2019,99,5.3
+Czech Republic,Central and Eastern Europe,20,6.852,1.269,0.92,2019,99,0.6
+United Arab Emirates,Middle East and Northern Africa,21,6.825,1.503,0.825,2019,93.23,0.5
+Malta,Western Europe,22,6.726,1.3,0.999,2019,94.5,0.9
+Mexico,Latin America and Caribbean,23,6.595,1.07,0.861,2019,95.4,24.8
+France,Western Europe,24,6.592,1.324,1.045,2019,99,1.3
+Taiwan,Eastern Asia,25,6.446,1.368,0.914,2019,98.87,0.8
+Chile,Latin America and Caribbean,26,6.444,1.159,0.92,2019,96.5,4.3
+Guatemala,Latin America and Caribbean,27,6.436,0.8,0.746,2019,90,26.1
+Saudi Arabia,Middle East and Northern Africa,28,6.375,1.403,0.795,2019,96,1.3
+Qatar,Middle East and Northern Africa,29,6.374,1.684,0.871,2019,94,8.1
+India,Southern Asia,140,4.015,0.755,0.588,2019,77.7,3.2
