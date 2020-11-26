@@ -1,16 +1,19 @@
 # MongoDB_Dash_Visualization
  Basic CRUD operations using MongoDB and Visualizing the data using DASH
 -----------------------------------------------------------------------------------
-Dataset:
+# Dataset:
 
 World Happiness Report
 
-Authors:
+-----------------------------------------------------------------------------------
+
+# Authors:
 
 Bhumik Varu (Artificial Intelligence Systems)
 
 Poorva Morvekar (Artificial Intelligence Systems)
 
-Server:
+------------------------------------------------------------------------------------
+# Server:
 
 http://127.0.0.1:2000/
