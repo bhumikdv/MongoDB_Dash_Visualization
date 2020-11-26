@@ -15,7 +15,7 @@ Poorva Morvekar (Artificial Intelligence Systems)
 
 ------------------------------------------------------------------------------------
 
-# Tools/Programming Language Used:
+# Tools & Programming Language:
 
 Spyder
 
@@ -27,7 +27,7 @@ DASH
 
 --------------------------------------------------------------------------------------
 
-# Libraries Used:
+# Libraries:
 
 pandas, pymongo
 
