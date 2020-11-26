@@ -52,7 +52,7 @@ figure_scatter_matrix = px.scatter_matrix(df, color='Country',
 
 app.layout = html.Div([
     
-    html.Div(html.H1("Data Visualization"), 
+    html.Div(html.H1("CRUD operations using MongoDB & Data Visualization using DASH"), 
              style={"text-align":"center",
                     "background":"#bde0fe"}),
     html.Div(html.H2("Does a country's Happiness depend on country's GDP? Health? Crime? Literacy?"), 
@@ -216,7 +216,7 @@ app.layout = html.Div([
     
     # Changes here..
     
-    # ------------------- Updating here
+    # ------------------- Creating here
     dbc.CardHeader(
             dbc.Button(
                 html.H3("Do you want to add more data??"),
@@ -245,6 +245,55 @@ app.layout = html.Div([
             ]),
                      
         id="collapse_question_6", is_open=False
+    ),
+    # -------------------
+    
+    # ------------------- Updating here
+    dbc.CardHeader(
+            dbc.Button(
+                html.H3("Do you want to Update data??"),
+                color="link",
+                id="button_question_7",
+            )
+    ),
+    
+    dbc.Collapse(
+        dbc.CardBody(children=[
+                       
+            html.Div([
+                dcc.Input(id='update-Country', type='text',  placeholder="Country"),
+                dcc.Input(id='update-Happiness-Score', type='text',  placeholder="Happiness Score"),
+                html.Button('Update', id='submit-value', n_clicks=0),
+                html.Div(id='update-container-button-basic',
+                         children='Enter values and press Update')
+                      ])
+            ]),
+                     
+        id="collapse_question_7", is_open=False
+    ),
+    # -------------------
+    
+    # ------------------- Deleting here
+    dbc.CardHeader(
+            dbc.Button(
+                html.H3("Do you want to Delete data??"),
+                color="link",
+                id="button_question_8",
+            )
+    ),
+    
+    dbc.Collapse(
+        dbc.CardBody(children=[
+                       
+            html.Div([
+                dcc.Input(id='delete-Country', type='text',  placeholder="Country"),
+                html.Button('Delete', id='submit-value-delete', n_clicks=0),
+                html.Div(id='delete-container-button-basic',
+                         children='Enter value and press Delete')
+                      ])
+            ]),
+                     
+        id="collapse_question_8", is_open=False
     ),
     # -------------------
 
@@ -313,6 +362,26 @@ def toggle_collapse(n, is_open):
         return not is_open
     return is_open
 
+@app.callback(
+    Output("collapse_question_7", "is_open"),
+    [Input("button_question_7", "n_clicks")],
+    [State("collapse_question_7", "is_open")],
+)
+def toggle_collapse(n, is_open):
+    if n:
+        return not is_open
+    return is_open
+
+@app.callback(
+    Output("collapse_question_8", "is_open"),
+    [Input("button_question_8", "n_clicks")],
+    [State("collapse_question_8", "is_open")],
+)
+def toggle_collapse(n, is_open):
+    if n:
+        return not is_open
+    return is_open
+
 
 @app.callback(
     dash.dependencies.Output('container-button-basic', 'children'),
@@ -350,7 +419,7 @@ def update_output(n_clicks, Country, Region, HappinessRank, HappinessScore,
     
     client.close()
     
-    return 'The input value was "{}, {}, {}, {}, {}, {}, {}, {}, {}" is added to the db.'.format(
+    return 'The input value "{}, {}, {}, {}, {}, {}, {}, {}, {}" is added to the db.'.format(
         Country,
         Region,
         HappinessRank,
@@ -361,6 +430,63 @@ def update_output(n_clicks, Country, Region, HappinessRank, HappinessScore,
         literacyrate,
         crimerate
     )
+
+# ----
+@app.callback(
+    dash.dependencies.Output('update-container-button-basic', 'children'),
+    [dash.dependencies.Input('submit-value', 'n_clicks')],
+    [dash.dependencies.State('update-Country', 'value'),
+     dash.dependencies.State('update-Happiness-Score', 'value')])
+def update_output(n_clicks, Country, HappinessScore):
+    
+    myquery = {  "Country": Country
+              }
+    
+    client = MongoClient()
+    client = MongoClient('localhost', 27017)
+    test = db.test
+    
+    newvalues = { "$set": { "Happiness Score": float(HappinessScore) } }
+    test.update_one(myquery, newvalues)
+       
+    global df
+    df = pd.DataFrame(list(test.find()))
+    
+    client.close()
+    
+    return 'The input value {} for country {} is updated.'.format(
+        HappinessScore,
+        Country
+    )
+
+# ----
+
+# ----
+@app.callback(
+    dash.dependencies.Output('delete-container-button-basic', 'children'),
+    [dash.dependencies.Input('submit-value-delete', 'n_clicks')],
+    [dash.dependencies.State('delete-Country', 'value')])
+def update_output(n_clicks, Country):
+    
+    myquery = {  "Country": Country
+              }
+    
+    client = MongoClient()
+    client = MongoClient('localhost', 27017)
+    test = db.test
+    
+    test.delete_one(myquery)
+       
+    global df
+    df = pd.DataFrame(list(test.find()))
+    
+    client.close()
+    
+    return 'Country {} is deleted.'.format(
+        Country
+    )
+
+# ----
 
 
 
