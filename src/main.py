@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Oct 12 12:17:19 2020
+Created on Tue Nov 24 17:29:03 2020
 
 @author: bhumik
 """
 
-# Run this app with `FinalPresentation.py` and
-# visit http://127.0.0.1:2000/ in your web browser.
+# Run this app with `main.py` and
+# visit http://127.0.0.1:2000/ in your web browser
 
 import dash
 import dash_bootstrap_components as dbc
@@ -20,6 +20,7 @@ import plotly.express as px
 import pymongo
 from pymongo import MongoClient
 import pprint
+import time
 
 client = MongoClient()
 client = MongoClient('localhost', 27017)
@@ -219,7 +220,7 @@ app.layout = html.Div([
     # ------------------- Creating here
     dbc.CardHeader(
             dbc.Button(
-                html.H3("Do you want to add more data??"),
+                html.H3("Create ----- Do you want to add more data??"),
                 color="link",
                 id="button_question_6",
             )
@@ -251,7 +252,7 @@ app.layout = html.Div([
     # ------------------- Updating here
     dbc.CardHeader(
             dbc.Button(
-                html.H3("Do you want to Update data??"),
+                html.H3("Update ----- Do you want to Update data??"),
                 color="link",
                 id="button_question_7",
             )
@@ -276,7 +277,7 @@ app.layout = html.Div([
     # ------------------- Deleting here
     dbc.CardHeader(
             dbc.Button(
-                html.H3("Do you want to Delete data??"),
+                html.H3("Delete ----- Do you want to Delete data??"),
                 color="link",
                 id="button_question_8",
             )
@@ -460,6 +461,17 @@ def update_output(n_clicks, Country, HappinessScore):
             HappinessScore,
             Country
         )
+
+# ---
+# @app.callback(
+#     dash.dependencies.Output('update-container-button-basic', 'children'),
+#     [dash.dependencies.Input('submit-value', 'n_clicks')])
+# def update_output(n_clicks, Country, HappinessScore):
+    
+#     if n_clicks != 0:
+#         time.sleep(2)
+#         return ''
+
 
 # ----
 
