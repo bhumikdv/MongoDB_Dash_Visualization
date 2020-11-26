@@ -3,9 +3,9 @@
 -----------------------------------------------------------------------------------
 # Authors:
 
-Bhumik Varu (Artificial Intelligence Systems)
+    Bhumik Varu (Artificial Intelligence Systems)
 
-Poorva Morvekar (Artificial Intelligence Systems)
+    Poorva Morvekar (Artificial Intelligence Systems)
 
 # Database connection steps:
 
@@ -38,21 +38,21 @@ Poorva Morvekar (Artificial Intelligence Systems)
 
 # Tools & Programming Language:
 
-Spyder
+    Spyder
 
-Python 3.6
+    Python 3.6
 
-MongoDB
+    MongoDB
 
-DASH
+    DASH
 
 
 
 # Libraries:
 
-pandas, pymongo
+    pandas, pymongo
 
-dash, dash_bootstrap_components, dash_core_components, dash_html_components, plotly
+    dash, dash_bootstrap_components, dash_core_components, dash_html_components, plotly
 
 
 
