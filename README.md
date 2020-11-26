@@ -5,7 +5,7 @@
 
 World Happiness Report
 
------------------------------------------------------------------------------------
+
 
 # Authors:
 
@@ -13,7 +13,7 @@ Bhumik Varu (Artificial Intelligence Systems)
 
 Poorva Morvekar (Artificial Intelligence Systems)
 
-------------------------------------------------------------------------------------
+
 
 # Tools & Programming Language:
 
@@ -25,7 +25,7 @@ MongoDB
 
 DASH
 
---------------------------------------------------------------------------------------
+
 
 # Libraries:
 
@@ -33,7 +33,7 @@ pandas, pymongo
 
 dash, dash_bootstrap_components, dash_core_components, dash_html_components, plotly
 
--------------------------------------------------------------------------------------
+
 
 # Server:
 
