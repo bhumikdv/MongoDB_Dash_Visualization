@@ -419,17 +419,18 @@ def update_output(n_clicks, Country, Region, HappinessRank, HappinessScore,
     
     client.close()
     
-    return 'The input value "{}, {}, {}, {}, {}, {}, {}, {}, {}" is added to the db.'.format(
-        Country,
-        Region,
-        HappinessRank,
-        HappinessScore,
-        Economy,
-        Health,
-        year,
-        literacyrate,
-        crimerate
-    )
+    if n_clicks != 0:
+        return 'The input value "{}, {}, {}, {}, {}, {}, {}, {}, {}" is added to the db.'.format(
+            Country,
+            Region,
+            HappinessRank,
+            HappinessScore,
+            Economy,
+            Health,
+            year,
+            literacyrate,
+            crimerate
+        )
 
 # ----
 @app.callback(
@@ -454,10 +455,11 @@ def update_output(n_clicks, Country, HappinessScore):
     
     client.close()
     
-    return 'The input value {} for country {} is updated.'.format(
-        HappinessScore,
-        Country
-    )
+    if n_clicks != 0:
+        return 'The Happiness Score value {} for country {} is updated.'.format(
+            HappinessScore,
+            Country
+        )
 
 # ----
 
@@ -482,9 +484,10 @@ def update_output(n_clicks, Country):
     
     client.close()
     
-    return 'Country {} is deleted.'.format(
-        Country
-    )
+    if n_clicks != 0:
+        return 'Country {} is deleted.'.format(
+            Country
+        )
 
 # ----
 
