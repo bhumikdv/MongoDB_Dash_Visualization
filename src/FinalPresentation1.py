@@ -16,11 +16,30 @@ from dash.dependencies import Input, Output, State
 import pandas as pd
 import plotly.express as px
 
+
+import pymongo
+from pymongo import MongoClient
+import pprint
+
+client = MongoClient()
+client = MongoClient('localhost', 27017)
+
+
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])  # https://bootswatch.com/default/
 
-df = pd.read_csv('WholeCummulativeData.csv')
+db = client.WorldHappinessReport
+collection = db.data
 
 
+# df = pd.read_csv('WholeCummulativeData.csv')
+
+client = MongoClient()
+client = MongoClient('localhost', 27017)
+test = db.test
+df = pd.DataFrame(list(test.find()))
+client.close()
+
+    
 
 figure_scatter_matrix = px.scatter_matrix(df, color='Country',
                 dimensions=['Economy (GDP per Capita)', 
@@ -39,7 +58,7 @@ app.layout = html.Div([
     html.Div(html.H2("Does a country's Happiness depend on country's GDP? Health? Crime? Literacy?"), 
              style={"text-align":"center",
                     "background":"#bde0fe"}),
-    html.Div(html.H3("- Bhumik Dhirajlal Varu & Siva Kumar Bhodapati"), 
+    html.Div(html.H3("- Bhumik Dhirajlal Varu & Poorva Morvekar"), 
              style={"text-align":"center",
                     "background":"#bde0fe",
                     'font-weight': 'bold'}),
@@ -193,7 +212,41 @@ app.layout = html.Div([
                      ]),
     
         id="collapse_question_5", is_open=False
-    )
+    ),
+    
+    # Changes here..
+    
+    # ------------------- Updating here
+    dbc.CardHeader(
+            dbc.Button(
+                html.H3("Do you want to add more data??"),
+                color="link",
+                id="button_question_6",
+            )
+    ),
+    
+    dbc.Collapse(
+        dbc.CardBody(children=[
+                       
+            html.Div([
+                dcc.Input(id='Country', type='text',  placeholder="Country"),
+                dcc.Input(id='Region', type='text',  placeholder="Region"),
+                dcc.Input(id='Happiness-Rank', type='text',  placeholder="Happiness Rank"),
+                dcc.Input(id='Happiness-Score', type='text',  placeholder="Happiness Score"),
+                dcc.Input(id='Economy', type='text',  placeholder="Economy (GDP per Capita)"),
+                dcc.Input(id='Health', type='text',  placeholder="Health (Life Expectancy)"),
+                dcc.Input(id='year', type='text',  placeholder="year"),
+                dcc.Input(id='literacy-rate', type='text',  placeholder="literacy rate"),
+                dcc.Input(id='crime-rate', type='text',  placeholder="crime rate"),
+                html.Button('Insert', id='submit-val', n_clicks=0),
+                html.Div(id='container-button-basic',
+                         children='Enter values and press Insert')
+                      ])
+            ]),
+                     
+        id="collapse_question_6", is_open=False
+    ),
+    # -------------------
 
 ],
     # style={"background":"#bde0fe"}
@@ -249,6 +302,65 @@ def toggle_collapse(n, is_open):
     if n:
         return not is_open
     return is_open
+
+@app.callback(
+    Output("collapse_question_6", "is_open"),
+    [Input("button_question_6", "n_clicks")],
+    [State("collapse_question_6", "is_open")],
+)
+def toggle_collapse(n, is_open):
+    if n:
+        return not is_open
+    return is_open
+
+
+@app.callback(
+    dash.dependencies.Output('container-button-basic', 'children'),
+    [dash.dependencies.Input('submit-val', 'n_clicks')],
+    [dash.dependencies.State('Country', 'value'),
+     dash.dependencies.State('Region', 'value'),
+     dash.dependencies.State('Happiness-Rank', 'value'),
+     dash.dependencies.State('Happiness-Score', 'value'),
+     dash.dependencies.State('Economy', 'value'),
+     dash.dependencies.State('Health', 'value'),
+     dash.dependencies.State('year', 'value'),
+     dash.dependencies.State('literacy-rate', 'value'),
+     dash.dependencies.State('crime-rate', 'value')])
+def update_output(n_clicks, Country, Region, HappinessRank, HappinessScore,
+                  Economy, Health, year, literacyrate, crimerate):
+    
+    insert = {"Country":Country,
+                "Region": Region,
+                "Happiness Rank": int(HappinessRank),
+                "Happiness Score": float(HappinessScore),
+                "Economy (GDP per Capita)": float(Economy),
+                "Health (Life Expectancy)":float(Health),
+                "year": int(year),
+                "literacy rate": float(literacyrate),
+                "crime rate": float(crimerate),
+              }
+    
+    client = MongoClient()
+    client = MongoClient('localhost', 27017)
+    test = db.test
+    test_id = test.insert_one(insert)
+       
+    global df
+    df = pd.DataFrame(list(test.find()))
+    
+    client.close()
+    
+    return 'The input value was "{}, {}, {}, {}, {}, {}, {}, {}, {}" is added to the db.'.format(
+        Country,
+        Region,
+        HappinessRank,
+        HappinessScore,
+        Economy,
+        Health,
+        year,
+        literacyrate,
+        crimerate
+    )
 
 
 
