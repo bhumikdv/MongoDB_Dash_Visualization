@@ -9,31 +9,31 @@ Poorva Morvekar (Artificial Intelligence Systems)
 
 # Database connection steps:
 
-Install MongoDB
+1. Install MongoDB
 
-Open MongoDB Compass and create a connection to localhost:27017  (This port is the default port)
+2. Open MongoDB Compass and create a connection to localhost:27017  (This port is the default port)
 
-Click on Create new database
+3. Click on Create new database
 
-Enter database name: WorldHappinessReport
+       Enter database name: WorldHappinessReport
 
-Enter collection name: test
+       Enter collection name: test
 
-Click on Create Database
+       Click on Create Database
 
-Goto test collection
+4. Goto test collection
 
-Click on Add Data
+        Click on Add Data
 
-Select Import File
+        Select Import File
 
-Select the given "" file.
+        Select the given "data\WorldHappinessReport_Test.json" file.
 
-Select Input File Type = JSON
+        Select Input File Type = JSON
 
-Click on Import
+5. Click on Import
 
-And Vola! Done.
+        And Vola! Done.
 
 
 # Tools & Programming Language:
