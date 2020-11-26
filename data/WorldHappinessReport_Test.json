@@ -1,0 +1,1951 @@
+[{
+  "_id": {
+    "$oid": "5fbed9bcc5317305105946f2"
+  },
+  "Country": "Switzerland",
+  "Region": "Western Europe",
+  "Happiness Rank": 1,
+  "Happiness Score": 7.587,
+  "Economy (GDP per Capita)": 1.39651,
+  "Health (Life Expectancy)": 0.94143,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 0.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc5317305105946f3"
+  },
+  "Country": "Iceland",
+  "Region": "Western Europe",
+  "Happiness Rank": 2,
+  "Happiness Score": 7.561,
+  "Economy (GDP per Capita)": 1.30232,
+  "Health (Life Expectancy)": 0.94784,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 0.9
+},{
+  "_id": {
+    "$oid": "5fbed9bcc5317305105946f4"
+  },
+  "Country": "Denmark",
+  "Region": "Western Europe",
+  "Happiness Rank": 3,
+  "Happiness Score": 7.527,
+  "Economy (GDP per Capita)": 1.32548,
+  "Health (Life Expectancy)": 0.87464,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 1.1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc5317305105946f5"
+  },
+  "Country": "Norway",
+  "Region": "Western Europe",
+  "Happiness Rank": 4,
+  "Happiness Score": 7.522,
+  "Economy (GDP per Capita)": 1.459,
+  "Health (Life Expectancy)": 0.88521,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 0.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc5317305105946f6"
+  },
+  "Country": "Canada",
+  "Region": "North America",
+  "Happiness Rank": 5,
+  "Happiness Score": 7.427,
+  "Economy (GDP per Capita)": 1.32629,
+  "Health (Life Expectancy)": 0.90563,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 1.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc5317305105946f7"
+  },
+  "Country": "Finland",
+  "Region": "Western Europe",
+  "Happiness Rank": 6,
+  "Happiness Score": 7.406,
+  "Economy (GDP per Capita)": 1.29025,
+  "Health (Life Expectancy)": 0.88911,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 1.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc5317305105946f8"
+  },
+  "Country": "Netherlands",
+  "Region": "Western Europe",
+  "Happiness Rank": 7,
+  "Happiness Score": 7.378,
+  "Economy (GDP per Capita)": 1.32944,
+  "Health (Life Expectancy)": 0.89284,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 0.6
+},{
+  "_id": {
+    "$oid": "5fbed9bcc5317305105946f9"
+  },
+  "Country": "Sweden",
+  "Region": "Western Europe",
+  "Happiness Rank": 8,
+  "Happiness Score": 7.364,
+  "Economy (GDP per Capita)": 1.33171,
+  "Health (Life Expectancy)": 0.91087,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 1.1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc5317305105946fa"
+  },
+  "Country": "New Zealand",
+  "Region": "Australia and New Zealand",
+  "Happiness Rank": 9,
+  "Happiness Score": 7.286,
+  "Economy (GDP per Capita)": 1.25018,
+  "Health (Life Expectancy)": 0.90837,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 1.1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc5317305105946fb"
+  },
+  "Country": "Australia",
+  "Region": "Australia and New Zealand",
+  "Happiness Rank": 10,
+  "Happiness Score": 7.284,
+  "Economy (GDP per Capita)": 1.33358,
+  "Health (Life Expectancy)": 0.93156,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 0.9
+},{
+  "_id": {
+    "$oid": "5fbed9bcc5317305105946fc"
+  },
+  "Country": "Israel",
+  "Region": "Middle East and Northern Africa",
+  "Happiness Rank": 11,
+  "Happiness Score": 7.278,
+  "Economy (GDP per Capita)": 1.22857,
+  "Health (Life Expectancy)": 0.91387,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 1.4
+},{
+  "_id": {
+    "$oid": "5fbed9bcc5317305105946fd"
+  },
+  "Country": "Costa Rica",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 12,
+  "Happiness Score": 7.226,
+  "Economy (GDP per Capita)": 0.95578,
+  "Health (Life Expectancy)": 0.86027,
+  "year": 2015,
+  "literacy rate": 99.32,
+  "crime rate": 11.6
+},{
+  "_id": {
+    "$oid": "5fbed9bcc5317305105946fe"
+  },
+  "Country": "Austria",
+  "Region": "Western Europe",
+  "Happiness Rank": 13,
+  "Happiness Score": 7.2,
+  "Economy (GDP per Capita)": 1.33723,
+  "Health (Life Expectancy)": 0.89042,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 0.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc5317305105946ff"
+  },
+  "Country": "Mexico",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 14,
+  "Happiness Score": 7.187,
+  "Economy (GDP per Capita)": 1.02054,
+  "Health (Life Expectancy)": 0.81444,
+  "year": 2015,
+  "literacy rate": 94.47,
+  "crime rate": 16.1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594700"
+  },
+  "Country": "United States",
+  "Region": "North America",
+  "Happiness Rank": 15,
+  "Happiness Score": 7.119,
+  "Economy (GDP per Capita)": 1.39451,
+  "Health (Life Expectancy)": 0.86179,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594701"
+  },
+  "Country": "Brazil",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 16,
+  "Happiness Score": 6.983,
+  "Economy (GDP per Capita)": 0.98124,
+  "Health (Life Expectancy)": 0.69702,
+  "year": 2015,
+  "literacy rate": 92.05,
+  "crime rate": 28.6
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594702"
+  },
+  "Country": "Luxembourg",
+  "Region": "Western Europe",
+  "Happiness Rank": 17,
+  "Happiness Score": 6.946,
+  "Economy (GDP per Capita)": 1.56391,
+  "Health (Life Expectancy)": 0.91894,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 0.9
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594703"
+  },
+  "Country": "Ireland",
+  "Region": "Western Europe",
+  "Happiness Rank": 18,
+  "Happiness Score": 6.94,
+  "Economy (GDP per Capita)": 1.33596,
+  "Health (Life Expectancy)": 0.89533,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 0.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594704"
+  },
+  "Country": "Belgium",
+  "Region": "Western Europe",
+  "Happiness Rank": 19,
+  "Happiness Score": 6.937,
+  "Economy (GDP per Capita)": 1.30782,
+  "Health (Life Expectancy)": 0.89667,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 2
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594705"
+  },
+  "Country": "United Arab Emirates",
+  "Region": "Middle East and Northern Africa",
+  "Happiness Rank": 20,
+  "Happiness Score": 6.901,
+  "Economy (GDP per Capita)": 1.42727,
+  "Health (Life Expectancy)": 0.80925,
+  "year": 2015,
+  "literacy rate": 93.23,
+  "crime rate": 0.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594706"
+  },
+  "Country": "United Kingdom",
+  "Region": "Western Europe",
+  "Happiness Rank": 21,
+  "Happiness Score": 6.867,
+  "Economy (GDP per Capita)": 1.26637,
+  "Health (Life Expectancy)": 0.90943,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594707"
+  },
+  "Country": "Oman",
+  "Region": "Middle East and Northern Africa",
+  "Happiness Rank": 22,
+  "Happiness Score": 6.853,
+  "Economy (GDP per Capita)": 1.36011,
+  "Health (Life Expectancy)": 0.76276,
+  "year": 2015,
+  "literacy rate": 93.04,
+  "crime rate": 0.4
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594708"
+  },
+  "Country": "Venezuela",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 23,
+  "Happiness Score": 6.81,
+  "Economy (GDP per Capita)": 1.04424,
+  "Health (Life Expectancy)": 0.72052,
+  "year": 2015,
+  "literacy rate": 96.61,
+  "crime rate": 56.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594709"
+  },
+  "Country": "Singapore",
+  "Region": "Southeastern Asia",
+  "Happiness Rank": 24,
+  "Happiness Score": 6.798,
+  "Economy (GDP per Capita)": 1.52186,
+  "Health (Life Expectancy)": 1.02525,
+  "year": 2015,
+  "literacy rate": 96.83,
+  "crime rate": 0.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059470a"
+  },
+  "Country": "Panama",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 25,
+  "Happiness Score": 6.786,
+  "Economy (GDP per Capita)": 1.06353,
+  "Health (Life Expectancy)": 0.79661,
+  "year": 2015,
+  "literacy rate": 91,
+  "crime rate": 11.9
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059470b"
+  },
+  "Country": "Germany",
+  "Region": "Western Europe",
+  "Happiness Rank": 26,
+  "Happiness Score": 6.75,
+  "Economy (GDP per Capita)": 1.32792,
+  "Health (Life Expectancy)": 0.89186,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 0.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059470c"
+  },
+  "Country": "Chile",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 27,
+  "Happiness Score": 6.67,
+  "Economy (GDP per Capita)": 1.10715,
+  "Health (Life Expectancy)": 0.85857,
+  "year": 2015,
+  "literacy rate": 96.87,
+  "crime rate": 3.4
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059470d"
+  },
+  "Country": "Qatar",
+  "Region": "Middle East and Northern Africa",
+  "Happiness Rank": 28,
+  "Happiness Score": 6.611,
+  "Economy (GDP per Capita)": 1.69042,
+  "Health (Life Expectancy)": 0.79733,
+  "year": 2015,
+  "literacy rate": 93,
+  "crime rate": 8.1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059470e"
+  },
+  "Country": "France",
+  "Region": "Western Europe",
+  "Happiness Rank": 29,
+  "Happiness Score": 6.575,
+  "Economy (GDP per Capita)": 1.27778,
+  "Health (Life Expectancy)": 0.94579,
+  "year": 2015,
+  "literacy rate": 99,
+  "crime rate": 1.6
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059470f"
+  },
+  "Country": "India",
+  "Region": "Southern Asia",
+  "Happiness Rank": 117,
+  "Happiness Score": 4.565,
+  "Economy (GDP per Capita)": 0.64499,
+  "Health (Life Expectancy)": 0.51529,
+  "year": 2015,
+  "literacy rate": 71.96,
+  "crime rate": 3.4
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594710"
+  },
+  "Country": "Denmark",
+  "Region": "Western Europe",
+  "Happiness Rank": 1,
+  "Happiness Score": 7.526,
+  "Economy (GDP per Capita)": 1.44178,
+  "Health (Life Expectancy)": 0.79504,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594711"
+  },
+  "Country": "Switzerland",
+  "Region": "Western Europe",
+  "Happiness Rank": 2,
+  "Happiness Score": 7.509,
+  "Economy (GDP per Capita)": 1.52733,
+  "Health (Life Expectancy)": 0.86303,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 0.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594712"
+  },
+  "Country": "Iceland",
+  "Region": "Western Europe",
+  "Happiness Rank": 3,
+  "Happiness Score": 7.501,
+  "Economy (GDP per Capita)": 1.42666,
+  "Health (Life Expectancy)": 0.86733,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 0.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594713"
+  },
+  "Country": "Norway",
+  "Region": "Western Europe",
+  "Happiness Rank": 4,
+  "Happiness Score": 7.498,
+  "Economy (GDP per Capita)": 1.57744,
+  "Health (Life Expectancy)": 0.79579,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 0.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594714"
+  },
+  "Country": "Finland",
+  "Region": "Western Europe",
+  "Happiness Rank": 5,
+  "Happiness Score": 7.413,
+  "Economy (GDP per Capita)": 1.40598,
+  "Health (Life Expectancy)": 0.81091,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 1.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594715"
+  },
+  "Country": "Canada",
+  "Region": "North America",
+  "Happiness Rank": 6,
+  "Happiness Score": 7.404,
+  "Economy (GDP per Capita)": 1.44015,
+  "Health (Life Expectancy)": 0.8276,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 1.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594716"
+  },
+  "Country": "Netherlands",
+  "Region": "Western Europe",
+  "Happiness Rank": 7,
+  "Happiness Score": 7.339,
+  "Economy (GDP per Capita)": 1.46468,
+  "Health (Life Expectancy)": 0.81231,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 0.6
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594717"
+  },
+  "Country": "New Zealand",
+  "Region": "Australia and New Zealand",
+  "Happiness Rank": 8,
+  "Happiness Score": 7.334,
+  "Economy (GDP per Capita)": 1.36066,
+  "Health (Life Expectancy)": 0.83096,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 0.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594718"
+  },
+  "Country": "Australia",
+  "Region": "Australia and New Zealand",
+  "Happiness Rank": 9,
+  "Happiness Score": 7.313,
+  "Economy (GDP per Capita)": 1.44443,
+  "Health (Life Expectancy)": 0.8512,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 0.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594719"
+  },
+  "Country": "Sweden",
+  "Region": "Western Europe",
+  "Happiness Rank": 10,
+  "Happiness Score": 7.291,
+  "Economy (GDP per Capita)": 1.45181,
+  "Health (Life Expectancy)": 0.83121,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 1.1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059471a"
+  },
+  "Country": "Israel",
+  "Region": "Middle East and Northern Africa",
+  "Happiness Rank": 11,
+  "Happiness Score": 7.267,
+  "Economy (GDP per Capita)": 1.33766,
+  "Health (Life Expectancy)": 0.84917,
+  "year": 2016,
+  "literacy rate": 91.75,
+  "crime rate": 1.4
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059471b"
+  },
+  "Country": "Austria",
+  "Region": "Western Europe",
+  "Happiness Rank": 12,
+  "Happiness Score": 7.119,
+  "Economy (GDP per Capita)": 1.45038,
+  "Health (Life Expectancy)": 0.80565,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 0.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059471c"
+  },
+  "Country": "United States",
+  "Region": "North America",
+  "Happiness Rank": 13,
+  "Happiness Score": 7.104,
+  "Economy (GDP per Capita)": 1.50796,
+  "Health (Life Expectancy)": 0.779,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 5.4
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059471d"
+  },
+  "Country": "Costa Rica",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 14,
+  "Happiness Score": 7.087,
+  "Economy (GDP per Capita)": 1.06879,
+  "Health (Life Expectancy)": 0.76146,
+  "year": 2016,
+  "literacy rate": 97.8,
+  "crime rate": 11.9
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059471e"
+  },
+  "Country": "Puerto Rico",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 15,
+  "Happiness Score": 7.039,
+  "Economy (GDP per Capita)": 1.35943,
+  "Health (Life Expectancy)": 0.77758,
+  "year": 2016,
+  "literacy rate": 86.5,
+  "crime rate": 19.2
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059471f"
+  },
+  "Country": "Germany",
+  "Region": "Western Europe",
+  "Happiness Rank": 16,
+  "Happiness Score": 6.994,
+  "Economy (GDP per Capita)": 1.44787,
+  "Health (Life Expectancy)": 0.81487,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 1.2
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594720"
+  },
+  "Country": "Brazil",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 17,
+  "Happiness Score": 6.952,
+  "Economy (GDP per Capita)": 1.08754,
+  "Health (Life Expectancy)": 0.61415,
+  "year": 2016,
+  "literacy rate": 92.81,
+  "crime rate": 28.4
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594721"
+  },
+  "Country": "Belgium",
+  "Region": "Western Europe",
+  "Happiness Rank": 18,
+  "Happiness Score": 6.929,
+  "Economy (GDP per Capita)": 1.42539,
+  "Health (Life Expectancy)": 0.81959,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 1.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594722"
+  },
+  "Country": "Ireland",
+  "Region": "Western Europe",
+  "Happiness Rank": 19,
+  "Happiness Score": 6.907,
+  "Economy (GDP per Capita)": 1.48341,
+  "Health (Life Expectancy)": 0.81455,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 0.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594723"
+  },
+  "Country": "Luxembourg",
+  "Region": "Western Europe",
+  "Happiness Rank": 20,
+  "Happiness Score": 6.871,
+  "Economy (GDP per Capita)": 1.69752,
+  "Health (Life Expectancy)": 0.84542,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 0.9
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594724"
+  },
+  "Country": "Mexico",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 21,
+  "Happiness Score": 6.778,
+  "Economy (GDP per Capita)": 1.11508,
+  "Health (Life Expectancy)": 0.71143,
+  "year": 2016,
+  "literacy rate": 94.86,
+  "crime rate": 16.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594725"
+  },
+  "Country": "Singapore",
+  "Region": "Southeastern Asia",
+  "Happiness Rank": 22,
+  "Happiness Score": 6.739,
+  "Economy (GDP per Capita)": 1.64555,
+  "Health (Life Expectancy)": 0.94719,
+  "year": 2016,
+  "literacy rate": 97.05,
+  "crime rate": 0.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594726"
+  },
+  "Country": "United Kingdom",
+  "Region": "Western Europe",
+  "Happiness Rank": 23,
+  "Happiness Score": 6.725,
+  "Economy (GDP per Capita)": 1.40283,
+  "Health (Life Expectancy)": 0.80991,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 1.2
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594727"
+  },
+  "Country": "Chile",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 24,
+  "Happiness Score": 6.705,
+  "Economy (GDP per Capita)": 1.2167,
+  "Health (Life Expectancy)": 0.81883,
+  "year": 2016,
+  "literacy rate": 96.87,
+  "crime rate": 3.4
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594728"
+  },
+  "Country": "Panama",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 25,
+  "Happiness Score": 6.701,
+  "Economy (GDP per Capita)": 1.18306,
+  "Health (Life Expectancy)": 0.70835,
+  "year": 2016,
+  "literacy rate": 98.1,
+  "crime rate": 10
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594729"
+  },
+  "Country": "Argentina",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 26,
+  "Happiness Score": 6.65,
+  "Economy (GDP per Capita)": 1.15137,
+  "Health (Life Expectancy)": 0.69711,
+  "year": 2016,
+  "literacy rate": 99.13,
+  "crime rate": 6
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059472a"
+  },
+  "Country": "Czech Republic",
+  "Region": "Central and Eastern Europe",
+  "Happiness Rank": 27,
+  "Happiness Score": 6.596,
+  "Economy (GDP per Capita)": 1.30915,
+  "Health (Life Expectancy)": 0.76376,
+  "year": 2016,
+  "literacy rate": 99,
+  "crime rate": 0.6
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059472b"
+  },
+  "Country": "United Arab Emirates",
+  "Region": "Middle East and Northern Africa",
+  "Happiness Rank": 28,
+  "Happiness Score": 6.573,
+  "Economy (GDP per Capita)": 1.57352,
+  "Health (Life Expectancy)": 0.72993,
+  "year": 2016,
+  "literacy rate": 93.23,
+  "crime rate": 0.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059472c"
+  },
+  "Country": "Uruguay",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 29,
+  "Happiness Score": 6.545,
+  "Economy (GDP per Capita)": 1.18157,
+  "Health (Life Expectancy)": 0.72183,
+  "year": 2016,
+  "literacy rate": 98.56,
+  "crime rate": 7.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059472d"
+  },
+  "Country": "India",
+  "Region": "Southern Asia",
+  "Happiness Rank": 118,
+  "Happiness Score": 4.404,
+  "Economy (GDP per Capita)": 0.74036,
+  "Health (Life Expectancy)": 0.45091,
+  "year": 2016,
+  "literacy rate": 75,
+  "crime rate": 3.2
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059472e"
+  },
+  "Country": "Norway",
+  "Region": "Western Europe",
+  "Happiness Rank": 1,
+  "Happiness Score": 7.537000179,
+  "Economy (GDP per Capita)": 1.616463184,
+  "Health (Life Expectancy)": 0.796666503,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 0.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059472f"
+  },
+  "Country": "Denmark",
+  "Region": "Western Europe",
+  "Happiness Rank": 2,
+  "Happiness Score": 7.521999836,
+  "Economy (GDP per Capita)": 1.482383013,
+  "Health (Life Expectancy)": 0.792565525,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 1.2
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594730"
+  },
+  "Country": "Iceland",
+  "Region": "Western Europe",
+  "Happiness Rank": 3,
+  "Happiness Score": 7.504000187,
+  "Economy (GDP per Capita)": 1.48063302,
+  "Health (Life Expectancy)": 0.833552122,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 0.9
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594731"
+  },
+  "Country": "Switzerland",
+  "Region": "Western Europe",
+  "Happiness Rank": 4,
+  "Happiness Score": 7.493999958,
+  "Economy (GDP per Capita)": 1.564979553,
+  "Health (Life Expectancy)": 0.858131289,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 0.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594732"
+  },
+  "Country": "Finland",
+  "Region": "Western Europe",
+  "Happiness Rank": 5,
+  "Happiness Score": 7.468999863,
+  "Economy (GDP per Capita)": 1.443571925,
+  "Health (Life Expectancy)": 0.80915767,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 1.2
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594733"
+  },
+  "Country": "Netherlands",
+  "Region": "Western Europe",
+  "Happiness Rank": 6,
+  "Happiness Score": 7.376999855,
+  "Economy (GDP per Capita)": 1.503944635,
+  "Health (Life Expectancy)": 0.810696125,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 0.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594734"
+  },
+  "Country": "Canada",
+  "Region": "North America",
+  "Happiness Rank": 7,
+  "Happiness Score": 7.315999985,
+  "Economy (GDP per Capita)": 1.479204416,
+  "Health (Life Expectancy)": 0.834557652,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 1.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594735"
+  },
+  "Country": "New Zealand",
+  "Region": "Australia and New Zealand",
+  "Happiness Rank": 8,
+  "Happiness Score": 7.31400013,
+  "Economy (GDP per Capita)": 1.405706048,
+  "Health (Life Expectancy)": 0.816759706,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 0.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594736"
+  },
+  "Country": "Sweden",
+  "Region": "Western Europe",
+  "Happiness Rank": 9,
+  "Happiness Score": 7.28399992,
+  "Economy (GDP per Capita)": 1.494387269,
+  "Health (Life Expectancy)": 0.830875158,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 1.1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594737"
+  },
+  "Country": "Australia",
+  "Region": "Australia and New Zealand",
+  "Happiness Rank": 10,
+  "Happiness Score": 7.28399992,
+  "Economy (GDP per Capita)": 1.484414935,
+  "Health (Life Expectancy)": 0.843886793,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 0.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594738"
+  },
+  "Country": "Israel",
+  "Region": "Middle East and Northern Africa",
+  "Happiness Rank": 11,
+  "Happiness Score": 7.212999821,
+  "Economy (GDP per Capita)": 1.375382423,
+  "Health (Life Expectancy)": 0.838404,
+  "year": 2017,
+  "literacy rate": 91.75,
+  "crime rate": 1.4
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594739"
+  },
+  "Country": "Costa Rica",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 12,
+  "Happiness Score": 7.078999996,
+  "Economy (GDP per Capita)": 1.109706283,
+  "Health (Life Expectancy)": 0.759509265,
+  "year": 2017,
+  "literacy rate": 97.9,
+  "crime rate": 12.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059473a"
+  },
+  "Country": "Austria",
+  "Region": "Western Europe",
+  "Happiness Rank": 13,
+  "Happiness Score": 7.006000042,
+  "Economy (GDP per Capita)": 1.487097263,
+  "Health (Life Expectancy)": 0.815328419,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 0.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059473b"
+  },
+  "Country": "United States",
+  "Region": "North America",
+  "Happiness Rank": 14,
+  "Happiness Score": 6.993000031,
+  "Economy (GDP per Capita)": 1.546259284,
+  "Health (Life Expectancy)": 0.774286628,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 5.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059473c"
+  },
+  "Country": "Ireland",
+  "Region": "Western Europe",
+  "Happiness Rank": 15,
+  "Happiness Score": 6.977000237,
+  "Economy (GDP per Capita)": 1.535706639,
+  "Health (Life Expectancy)": 0.809782624,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 0.9
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059473d"
+  },
+  "Country": "Germany",
+  "Region": "Western Europe",
+  "Happiness Rank": 16,
+  "Happiness Score": 6.951000214,
+  "Economy (GDP per Capita)": 1.487923384,
+  "Health (Life Expectancy)": 0.798950732,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059473e"
+  },
+  "Country": "Belgium",
+  "Region": "Western Europe",
+  "Happiness Rank": 17,
+  "Happiness Score": 6.890999794,
+  "Economy (GDP per Capita)": 1.463780761,
+  "Health (Life Expectancy)": 0.818091869,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 1.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059473f"
+  },
+  "Country": "Luxembourg",
+  "Region": "Western Europe",
+  "Happiness Rank": 18,
+  "Happiness Score": 6.862999916,
+  "Economy (GDP per Capita)": 1.741943598,
+  "Health (Life Expectancy)": 0.845089495,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 0.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594740"
+  },
+  "Country": "United Kingdom",
+  "Region": "Western Europe",
+  "Happiness Rank": 19,
+  "Happiness Score": 6.714000225,
+  "Economy (GDP per Capita)": 1.44163394,
+  "Health (Life Expectancy)": 0.805335939,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 1.2
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594741"
+  },
+  "Country": "Chile",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 20,
+  "Happiness Score": 6.65199995,
+  "Economy (GDP per Capita)": 1.25278461,
+  "Health (Life Expectancy)": 0.819479704,
+  "year": 2017,
+  "literacy rate": 96.4,
+  "crime rate": 4.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594742"
+  },
+  "Country": "United Arab Emirates",
+  "Region": "Middle East and Northern Africa",
+  "Happiness Rank": 21,
+  "Happiness Score": 6.647999763,
+  "Economy (GDP per Capita)": 1.626343369,
+  "Health (Life Expectancy)": 0.726798236,
+  "year": 2017,
+  "literacy rate": 95,
+  "crime rate": 0.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594743"
+  },
+  "Country": "Brazil",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 22,
+  "Happiness Score": 6.635000229,
+  "Economy (GDP per Capita)": 1.10735321,
+  "Health (Life Expectancy)": 0.616552353,
+  "year": 2017,
+  "literacy rate": 93.08,
+  "crime rate": 29.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594744"
+  },
+  "Country": "Czech Republic",
+  "Region": "Central and Eastern Europe",
+  "Happiness Rank": 23,
+  "Happiness Score": 6.609000206,
+  "Economy (GDP per Capita)": 1.352682352,
+  "Health (Life Expectancy)": 0.754444003,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 0.6
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594745"
+  },
+  "Country": "Argentina",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 24,
+  "Happiness Score": 6.598999977,
+  "Economy (GDP per Capita)": 1.185295463,
+  "Health (Life Expectancy)": 0.695137084,
+  "year": 2017,
+  "literacy rate": 99,
+  "crime rate": 5.1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594746"
+  },
+  "Country": "Mexico",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 25,
+  "Happiness Score": 6.578000069,
+  "Economy (GDP per Capita)": 1.153183818,
+  "Health (Life Expectancy)": 0.709978998,
+  "year": 2017,
+  "literacy rate": 94.97,
+  "crime rate": 19.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594747"
+  },
+  "Country": "Singapore",
+  "Region": "Southeastern Asia",
+  "Happiness Rank": 26,
+  "Happiness Score": 6.572000027,
+  "Economy (GDP per Capita)": 1.69227767,
+  "Health (Life Expectancy)": 0.949492395,
+  "year": 2017,
+  "literacy rate": 97.2,
+  "crime rate": 0.2
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594748"
+  },
+  "Country": "Malta",
+  "Region": "Western Europe",
+  "Happiness Rank": 27,
+  "Happiness Score": 6.52699995,
+  "Economy (GDP per Capita)": 1.343279839,
+  "Health (Life Expectancy)": 0.821944237,
+  "year": 2017,
+  "literacy rate": 94.5,
+  "crime rate": 0.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594749"
+  },
+  "Country": "Uruguay",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 28,
+  "Happiness Score": 6.453999996,
+  "Economy (GDP per Capita)": 1.217559695,
+  "Health (Life Expectancy)": 0.719216824,
+  "year": 2017,
+  "literacy rate": 98.62,
+  "crime rate": 8.2
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059474a"
+  },
+  "Country": "Guatemala",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 29,
+  "Happiness Score": 6.453999996,
+  "Economy (GDP per Capita)": 0.872001946,
+  "Health (Life Expectancy)": 0.54023999,
+  "year": 2017,
+  "literacy rate": 89,
+  "crime rate": 26.1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059474b"
+  },
+  "Country": "India",
+  "Region": "Southern Asia",
+  "Happiness Rank": 122,
+  "Happiness Score": 4.315000057,
+  "Economy (GDP per Capita)": 0.792221248,
+  "Health (Life Expectancy)": 0.455427617,
+  "year": 2017,
+  "literacy rate": 75,
+  "crime rate": 3.2
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059474c"
+  },
+  "Country": "Finland",
+  "Region": "Western Europe",
+  "Happiness Rank": 1,
+  "Happiness Score": 7.632,
+  "Economy (GDP per Capita)": 1.305,
+  "Health (Life Expectancy)": 0.874,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 1.23
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059474d"
+  },
+  "Country": "Norway",
+  "Region": "Western Europe",
+  "Happiness Rank": 2,
+  "Happiness Score": 7.594,
+  "Economy (GDP per Capita)": 1.456,
+  "Health (Life Expectancy)": 0.861,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 0.53
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059474e"
+  },
+  "Country": "Denmark",
+  "Region": "Western Europe",
+  "Happiness Rank": 3,
+  "Happiness Score": 7.555,
+  "Economy (GDP per Capita)": 1.351,
+  "Health (Life Expectancy)": 0.868,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 0.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059474f"
+  },
+  "Country": "Iceland",
+  "Region": "Western Europe",
+  "Happiness Rank": 4,
+  "Happiness Score": 7.495,
+  "Economy (GDP per Capita)": 1.343,
+  "Health (Life Expectancy)": 0.914,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 0.9
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594750"
+  },
+  "Country": "Switzerland",
+  "Region": "Western Europe",
+  "Happiness Rank": 5,
+  "Happiness Score": 7.487,
+  "Economy (GDP per Capita)": 1.42,
+  "Health (Life Expectancy)": 0.927,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 0.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594751"
+  },
+  "Country": "Netherlands",
+  "Region": "Western Europe",
+  "Happiness Rank": 6,
+  "Happiness Score": 7.441,
+  "Economy (GDP per Capita)": 1.361,
+  "Health (Life Expectancy)": 0.878,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 0.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594752"
+  },
+  "Country": "Canada",
+  "Region": "North America",
+  "Happiness Rank": 7,
+  "Happiness Score": 7.328,
+  "Economy (GDP per Capita)": 1.33,
+  "Health (Life Expectancy)": 0.896,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 1.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594753"
+  },
+  "Country": "New Zealand",
+  "Region": "Australia and New Zealand",
+  "Happiness Rank": 8,
+  "Happiness Score": 7.324,
+  "Economy (GDP per Capita)": 1.268,
+  "Health (Life Expectancy)": 0.876,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 0.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594754"
+  },
+  "Country": "Sweden",
+  "Region": "Western Europe",
+  "Happiness Rank": 9,
+  "Happiness Score": 7.314,
+  "Economy (GDP per Capita)": 1.355,
+  "Health (Life Expectancy)": 0.913,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 1.1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594755"
+  },
+  "Country": "Australia",
+  "Region": "Australia and New Zealand",
+  "Happiness Rank": 10,
+  "Happiness Score": 7.272,
+  "Economy (GDP per Capita)": 1.34,
+  "Health (Life Expectancy)": 0.91,
+  "year": 2018,
+  "literacy rate": 88,
+  "crime rate": 0.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594756"
+  },
+  "Country": "United Kingdom",
+  "Region": "Western Europe",
+  "Happiness Rank": 11,
+  "Happiness Score": 7.19,
+  "Economy (GDP per Capita)": 1.244,
+  "Health (Life Expectancy)": 0.888,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 1.2
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594757"
+  },
+  "Country": "Austria",
+  "Region": "Western Europe",
+  "Happiness Rank": 12,
+  "Happiness Score": 7.139,
+  "Economy (GDP per Capita)": 1.341,
+  "Health (Life Expectancy)": 0.891,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 0.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594758"
+  },
+  "Country": "Costa Rica",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 13,
+  "Happiness Score": 7.072,
+  "Economy (GDP per Capita)": 1.01,
+  "Health (Life Expectancy)": 0.817,
+  "year": 2018,
+  "literacy rate": 97.86,
+  "crime rate": 12.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594759"
+  },
+  "Country": "Ireland",
+  "Region": "Western Europe",
+  "Happiness Rank": 14,
+  "Happiness Score": 6.977,
+  "Economy (GDP per Capita)": 1.448,
+  "Health (Life Expectancy)": 0.876,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 0.9
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059475a"
+  },
+  "Country": "Germany",
+  "Region": "Western Europe",
+  "Happiness Rank": 15,
+  "Happiness Score": 6.965,
+  "Economy (GDP per Capita)": 1.34,
+  "Health (Life Expectancy)": 0.861,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059475b"
+  },
+  "Country": "Belgium",
+  "Region": "Western Europe",
+  "Happiness Rank": 16,
+  "Happiness Score": 6.927,
+  "Economy (GDP per Capita)": 1.324,
+  "Health (Life Expectancy)": 0.894,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 1.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059475c"
+  },
+  "Country": "Luxembourg",
+  "Region": "Western Europe",
+  "Happiness Rank": 17,
+  "Happiness Score": 6.91,
+  "Economy (GDP per Capita)": 1.576,
+  "Health (Life Expectancy)": 0.896,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 0.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059475d"
+  },
+  "Country": "United States",
+  "Region": "North America",
+  "Happiness Rank": 18,
+  "Happiness Score": 6.886,
+  "Economy (GDP per Capita)": 1.398,
+  "Health (Life Expectancy)": 0.819,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 5.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059475e"
+  },
+  "Country": "Israel",
+  "Region": "Middle East and Northern Africa",
+  "Happiness Rank": 19,
+  "Happiness Score": 6.814,
+  "Economy (GDP per Capita)": 1.301,
+  "Health (Life Expectancy)": 0.883,
+  "year": 2018,
+  "literacy rate": 91,
+  "crime rate": 1.4
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059475f"
+  },
+  "Country": "United Arab Emirates",
+  "Region": "Middle East and Northern Africa",
+  "Happiness Rank": 20,
+  "Happiness Score": 6.774,
+  "Economy (GDP per Capita)": 2.096,
+  "Health (Life Expectancy)": 0.67,
+  "year": 2018,
+  "literacy rate": 95,
+  "crime rate": 0.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594760"
+  },
+  "Country": "Czech Republic",
+  "Region": "Central and Eastern Europe",
+  "Happiness Rank": 21,
+  "Happiness Score": 6.711,
+  "Economy (GDP per Capita)": 1.233,
+  "Health (Life Expectancy)": 0.854,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 0.6
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594761"
+  },
+  "Country": "Malta",
+  "Region": "Western Europe",
+  "Happiness Rank": 22,
+  "Happiness Score": 6.627,
+  "Economy (GDP per Capita)": 1.27,
+  "Health (Life Expectancy)": 0.884,
+  "year": 2018,
+  "literacy rate": 94.5,
+  "crime rate": 0.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594762"
+  },
+  "Country": "France",
+  "Region": "Western Europe",
+  "Happiness Rank": 23,
+  "Happiness Score": 6.489,
+  "Economy (GDP per Capita)": 1.293,
+  "Health (Life Expectancy)": 0.908,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 1.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594763"
+  },
+  "Country": "Mexico",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 24,
+  "Happiness Score": 6.488,
+  "Economy (GDP per Capita)": 1.038,
+  "Health (Life Expectancy)": 0.761,
+  "year": 2018,
+  "literacy rate": 95.38,
+  "crime rate": 24.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594764"
+  },
+  "Country": "Chile",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 25,
+  "Happiness Score": 6.476,
+  "Economy (GDP per Capita)": 1.131,
+  "Health (Life Expectancy)": 0.808,
+  "year": 2018,
+  "literacy rate": 96.4,
+  "crime rate": 4.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594765"
+  },
+  "Country": "Taiwan",
+  "Region": "Eastern Asia",
+  "Happiness Rank": 26,
+  "Happiness Score": 6.441,
+  "Economy (GDP per Capita)": 1.365,
+  "Health (Life Expectancy)": 0.857,
+  "year": 2018,
+  "literacy rate": 98,
+  "crime rate": 0.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594766"
+  },
+  "Country": "Panama",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 27,
+  "Happiness Score": 6.43,
+  "Economy (GDP per Capita)": 1.112,
+  "Health (Life Expectancy)": 0.759,
+  "year": 2018,
+  "literacy rate": 95.41,
+  "crime rate": 9.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594767"
+  },
+  "Country": "Brazil",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 28,
+  "Happiness Score": 6.419,
+  "Economy (GDP per Capita)": 0.986,
+  "Health (Life Expectancy)": 0.675,
+  "year": 2018,
+  "literacy rate": 93.23,
+  "crime rate": 30.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594768"
+  },
+  "Country": "Argentina",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 29,
+  "Happiness Score": 6.388,
+  "Economy (GDP per Capita)": 1.073,
+  "Health (Life Expectancy)": 0.744,
+  "year": 2018,
+  "literacy rate": 99,
+  "crime rate": 5.1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594769"
+  },
+  "Country": "India",
+  "Region": "Southern Asia",
+  "Happiness Rank": 133,
+  "Happiness Score": 4.19,
+  "Economy (GDP per Capita)": 0.721,
+  "Health (Life Expectancy)": 0.485,
+  "year": 2018,
+  "literacy rate": 74.4,
+  "crime rate": 3.2
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059476a"
+  },
+  "Country": "Finland",
+  "Region": "Western Europe",
+  "Happiness Rank": 1,
+  "Happiness Score": 7.769,
+  "Economy (GDP per Capita)": 1.34,
+  "Health (Life Expectancy)": 0.986,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 1.11
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059476b"
+  },
+  "Country": "Denmark",
+  "Region": "Western Europe",
+  "Happiness Rank": 2,
+  "Happiness Score": 7.6,
+  "Economy (GDP per Capita)": 1.383,
+  "Health (Life Expectancy)": 0.996,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 0.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059476c"
+  },
+  "Country": "Norway",
+  "Region": "Western Europe",
+  "Happiness Rank": 3,
+  "Happiness Score": 7.554,
+  "Economy (GDP per Capita)": 1.488,
+  "Health (Life Expectancy)": 1.028,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 0.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059476d"
+  },
+  "Country": "Iceland",
+  "Region": "Western Europe",
+  "Happiness Rank": 4,
+  "Happiness Score": 7.494,
+  "Economy (GDP per Capita)": 1.38,
+  "Health (Life Expectancy)": 1.026,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 0.9
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059476e"
+  },
+  "Country": "Netherlands",
+  "Region": "Western Europe",
+  "Happiness Rank": 5,
+  "Happiness Score": 7.488,
+  "Economy (GDP per Capita)": 1.396,
+  "Health (Life Expectancy)": 0.999,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 0.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059476f"
+  },
+  "Country": "Switzerland",
+  "Region": "Western Europe",
+  "Happiness Rank": 6,
+  "Happiness Score": 7.48,
+  "Economy (GDP per Capita)": 1.452,
+  "Health (Life Expectancy)": 1.052,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 0.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594770"
+  },
+  "Country": "Sweden",
+  "Region": "Western Europe",
+  "Happiness Rank": 7,
+  "Happiness Score": 7.343,
+  "Economy (GDP per Capita)": 1.387,
+  "Health (Life Expectancy)": 1.009,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 1.1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594771"
+  },
+  "Country": "New Zealand",
+  "Region": "Australia and New Zealand",
+  "Happiness Rank": 8,
+  "Happiness Score": 7.307,
+  "Economy (GDP per Capita)": 1.303,
+  "Health (Life Expectancy)": 1.026,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 0.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594772"
+  },
+  "Country": "Canada",
+  "Region": "North America",
+  "Happiness Rank": 9,
+  "Happiness Score": 7.278,
+  "Economy (GDP per Capita)": 1.365,
+  "Health (Life Expectancy)": 1.039,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 1.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594773"
+  },
+  "Country": "Austria",
+  "Region": "Western Europe",
+  "Happiness Rank": 10,
+  "Happiness Score": 7.246,
+  "Economy (GDP per Capita)": 1.376,
+  "Health (Life Expectancy)": 1.016,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 0.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594774"
+  },
+  "Country": "Australia",
+  "Region": "Australia and New Zealand",
+  "Happiness Rank": 11,
+  "Happiness Score": 7.228,
+  "Economy (GDP per Capita)": 1.372,
+  "Health (Life Expectancy)": 1.036,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 0.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594775"
+  },
+  "Country": "Costa Rica",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 12,
+  "Happiness Score": 7.167,
+  "Economy (GDP per Capita)": 1.034,
+  "Health (Life Expectancy)": 0.963,
+  "year": 2019,
+  "literacy rate": 97.9,
+  "crime rate": 12.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594776"
+  },
+  "Country": "Israel",
+  "Region": "Middle East and Northern Africa",
+  "Happiness Rank": 13,
+  "Happiness Score": 7.139,
+  "Economy (GDP per Capita)": 1.276,
+  "Health (Life Expectancy)": 1.029,
+  "year": 2019,
+  "literacy rate": 91.75,
+  "crime rate": 1.4
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594777"
+  },
+  "Country": "Luxembourg",
+  "Region": "Western Europe",
+  "Happiness Rank": 14,
+  "Happiness Score": 7.09,
+  "Economy (GDP per Capita)": 1.609,
+  "Health (Life Expectancy)": 1.012,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 0.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594778"
+  },
+  "Country": "United Kingdom",
+  "Region": "Western Europe",
+  "Happiness Rank": 15,
+  "Happiness Score": 7.054,
+  "Economy (GDP per Capita)": 1.333,
+  "Health (Life Expectancy)": 0.996,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 1.2
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594779"
+  },
+  "Country": "Ireland",
+  "Region": "Western Europe",
+  "Happiness Rank": 16,
+  "Happiness Score": 7.021,
+  "Economy (GDP per Capita)": 1.499,
+  "Health (Life Expectancy)": 0.999,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 0.9
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059477a"
+  },
+  "Country": "Germany",
+  "Region": "Western Europe",
+  "Happiness Rank": 17,
+  "Happiness Score": 6.985,
+  "Economy (GDP per Capita)": 1.373,
+  "Health (Life Expectancy)": 0.987,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059477b"
+  },
+  "Country": "Belgium",
+  "Region": "Western Europe",
+  "Happiness Rank": 18,
+  "Happiness Score": 6.923,
+  "Economy (GDP per Capita)": 1.356,
+  "Health (Life Expectancy)": 0.986,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 1.7
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059477c"
+  },
+  "Country": "United States",
+  "Region": "North America",
+  "Happiness Rank": 19,
+  "Happiness Score": 6.892,
+  "Economy (GDP per Capita)": 1.433,
+  "Health (Life Expectancy)": 0.874,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 5.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059477d"
+  },
+  "Country": "Czech Republic",
+  "Region": "Central and Eastern Europe",
+  "Happiness Rank": 20,
+  "Happiness Score": 6.852,
+  "Economy (GDP per Capita)": 1.269,
+  "Health (Life Expectancy)": 0.92,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 0.6
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059477e"
+  },
+  "Country": "United Arab Emirates",
+  "Region": "Middle East and Northern Africa",
+  "Happiness Rank": 21,
+  "Happiness Score": 6.825,
+  "Economy (GDP per Capita)": 1.503,
+  "Health (Life Expectancy)": 0.825,
+  "year": 2019,
+  "literacy rate": 93.23,
+  "crime rate": 0.5
+},{
+  "_id": {
+    "$oid": "5fbed9bcc53173051059477f"
+  },
+  "Country": "Malta",
+  "Region": "Western Europe",
+  "Happiness Rank": 22,
+  "Happiness Score": 6.726,
+  "Economy (GDP per Capita)": 1.3,
+  "Health (Life Expectancy)": 0.999,
+  "year": 2019,
+  "literacy rate": 94.5,
+  "crime rate": 0.9
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594780"
+  },
+  "Country": "Mexico",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 23,
+  "Happiness Score": 6.595,
+  "Economy (GDP per Capita)": 1.07,
+  "Health (Life Expectancy)": 0.861,
+  "year": 2019,
+  "literacy rate": 95.4,
+  "crime rate": 24.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594781"
+  },
+  "Country": "France",
+  "Region": "Western Europe",
+  "Happiness Rank": 24,
+  "Happiness Score": 6.592,
+  "Economy (GDP per Capita)": 1.324,
+  "Health (Life Expectancy)": 1.045,
+  "year": 2019,
+  "literacy rate": 99,
+  "crime rate": 1.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594782"
+  },
+  "Country": "Taiwan",
+  "Region": "Eastern Asia",
+  "Happiness Rank": 25,
+  "Happiness Score": 6.446,
+  "Economy (GDP per Capita)": 1.368,
+  "Health (Life Expectancy)": 0.914,
+  "year": 2019,
+  "literacy rate": 98.87,
+  "crime rate": 0.8
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594783"
+  },
+  "Country": "Chile",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 26,
+  "Happiness Score": 6.444,
+  "Economy (GDP per Capita)": 1.159,
+  "Health (Life Expectancy)": 0.92,
+  "year": 2019,
+  "literacy rate": 96.5,
+  "crime rate": 4.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594784"
+  },
+  "Country": "Guatemala",
+  "Region": "Latin America and Caribbean",
+  "Happiness Rank": 27,
+  "Happiness Score": 6.436,
+  "Economy (GDP per Capita)": 0.8,
+  "Health (Life Expectancy)": 0.746,
+  "year": 2019,
+  "literacy rate": 90,
+  "crime rate": 26.1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594785"
+  },
+  "Country": "Saudi Arabia",
+  "Region": "Middle East and Northern Africa",
+  "Happiness Rank": 28,
+  "Happiness Score": 6.375,
+  "Economy (GDP per Capita)": 1.403,
+  "Health (Life Expectancy)": 0.795,
+  "year": 2019,
+  "literacy rate": 96,
+  "crime rate": 1.3
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594786"
+  },
+  "Country": "Qatar",
+  "Region": "Middle East and Northern Africa",
+  "Happiness Rank": 29,
+  "Happiness Score": 6.374,
+  "Economy (GDP per Capita)": 1.684,
+  "Health (Life Expectancy)": 0.871,
+  "year": 2019,
+  "literacy rate": 94,
+  "crime rate": 8.1
+},{
+  "_id": {
+    "$oid": "5fbed9bcc531730510594787"
+  },
+  "Country": "India",
+  "Region": "Southern Asia",
+  "Happiness Rank": 140,
+  "Happiness Score": 4.015,
+  "Economy (GDP per Capita)": 0.755,
+  "Health (Life Expectancy)": 0.588,
+  "year": 2019,
+  "literacy rate": 77.7,
+  "crime rate": 3.2
+}]
